@@ -21,3 +21,9 @@ console.log(x > y)
 // x/=y = 1
 // x %= y = 0
 console.log(x)
+
+console.log(5+8*9) // 77
+console.log(10-4+2) // 8
+console.log(10-(2+1)) // 7
+console.log(5*2-40/5) // 2
+console.log(7+8/2+25) // 36
