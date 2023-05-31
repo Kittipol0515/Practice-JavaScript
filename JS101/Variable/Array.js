@@ -14,19 +14,6 @@ color[1] = "whitesmoke"
 console.log(color[1]) // Find Index
 console.log(color.length)// Find length
 
-// operation
-
-let x = 5
-let y = 5
-let a = 10
-let b = 13
-
-console.log(x+y) // plus
-console.log(a-y) // minus
-console.log(a*b) // multiply
-console.log(a**x) // power of
-console.log(a/x) // divide
-console.log(b%y) // remainder
 
 
 
