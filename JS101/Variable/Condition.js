@@ -34,7 +34,7 @@ if (score >= 70) {
 
 // console.log(pass)
 
-let age = 20 
+let age = 10 
 
 if (age <= 15) {
     if(age == 15) {
