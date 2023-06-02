@@ -59,3 +59,11 @@ console.log(salary)
 
 const salaryA = setSalary(20000)
 console.log("Salary" + ' ' + salaryA) 
+
+function getName(name,city,state="Hugo") {
+    return name + ' ' + city + ' ' + state
+}
+
+
+
+console.log(getName("nomain","Bangkok","logo"))
