@@ -17,3 +17,20 @@ if(x%2 == 0) {
 } else {
     console.log("odd number")
 }
+
+
+//Default parameter 
+
+getDataCustomer = (customername,gamingpad) => {
+
+    if(!customername || !gamingpad) {
+        customername = "unknown"
+        gamingpad = "unsigned"
+    }
+
+    const address = `Customer name : ${customername},
+    Style : ${gamingpad}`
+    return address
+}
+
+console.log(getDataCustomer("Nomain"))
