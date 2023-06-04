@@ -84,13 +84,18 @@ const data = [10, 20, 30, 40, 50];
 //     console.log(`Number ${i} = ${data[i]}`);
 // }
 
-// data.forEach(element => {
-//     console.log(element);
-// })
 
-for (const element of data) {
-    if (element >= 30) {
-        break;
-    }
-    console.log(element);
-}
+let sum = 0;
+data.forEach(element => {
+    sum += element;
+    console.log(`Total = ${sum}`);
+});
+
+console.log("Sum:", sum);
+
+// for (const element of data) {
+//     if (element >= 30) {
+//         break;
+//     }
+//     console.log(element);
+// }
