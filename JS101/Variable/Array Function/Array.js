@@ -9,7 +9,9 @@
 let color = ['red','blue','green','yellow','white','black']
 color.push("vine")
 color.push("gold")
-color.pop()
+// color.pop()
+// color.unshift("Loppy") 
+color.splice(1,3)
 
 console.log(color)
 
@@ -66,9 +68,29 @@ console.log(color)
 
 //Destucturing // array
 
-const colors = ["green","blue","yellow","red"]
-const [yellow] = colors
+// const colors = ["green","blue","yellow","red"]
+// const [yellow] = colors
 
-console.log(yellow) 
+// console.log(yellow) 
 
 
+const data = [10, 20, 30, 40, 50];
+
+// Ex1
+// for (let i = 0; i < data.length; i++) {
+//     if (data[i] > 30) {
+//         break;
+//     }
+//     console.log(`Number ${i} = ${data[i]}`);
+// }
+
+// data.forEach(element => {
+//     console.log(element);
+// })
+
+for (const element of data) {
+    if (element >= 30) {
+        break;
+    }
+    console.log(element);
+}
